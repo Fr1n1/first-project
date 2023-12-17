@@ -7,7 +7,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 .header {
   box-sizing: border-box;
@@ -49,14 +48,13 @@ body {
 
 .header_menu,
 .address {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   line-height: normal;
   font-size: 18px;
   font-weight: 400;
 }
 .header__address {
-
   line-height: 25px;
 }
 li:first-child {
@@ -84,9 +82,7 @@ a.header__address:hover,
 a.header__address,
 a.ddress:active,
 a.address:hover,
-a.address
- {
-
+a.address {
   color: #000;
 }
 
@@ -111,7 +107,6 @@ a.address
   background-size: 1120px;
   margin-left: 55px;
   margin-top: 10px;
-
 }
 .cover {
   display: flex;
@@ -200,7 +195,7 @@ a.address
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   word-spacing: 17px;
 }
 
@@ -214,21 +209,18 @@ a.address
   padding-top: 645px;
   margin-bottom: 73px;
   text-transform: uppercase;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 22px;
-
-
 }
-
 
 a.bet-button:active,
 a.bet-button:hover,
 a.bet-button {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 .bet-button {
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
 
   padding-left: 32px;
 
@@ -244,11 +236,10 @@ a.bet-button {
   height: 682px;
   padding-left: 25px;
   padding-right: 33px;
-
 }
-.lots__heading  {
+.lots__heading {
   height: 41px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -262,11 +253,8 @@ a.bet-button {
 
   flex-grow: 1;
   flex-shrink: 0;
-
-
 }
 .card_type_film {
-
   width: 328px;
   height: 554px;
   flex-shrink: 0;
@@ -283,8 +271,8 @@ a.bet-button {
 .card__title {
   width: 254px;
   height: 82px;
-  color: #FFF;
-  font-family: 'Raleway';
+  color: #fff;
+  font-family: "Raleway";
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -295,10 +283,8 @@ a.bet-button {
   padding-top: 48px;
   margin-left: 39px;
   margin-right: 35px;
-
-  }
+}
 .card_type_book {
-
   width: 328px;
   height: 554px;
   margin-left: 24px;
@@ -306,8 +292,8 @@ a.bet-button {
   background-repeat: no-repeat;
 }
 .card__text-first {
-  color: #FFF;
-  font-family: 'Raleway';
+  color: #fff;
+  font-family: "Raleway";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -317,8 +303,8 @@ a.bet-button {
   margin-right: 35px;
 }
 .card__text-second {
-  color: #FFF;
-  font-family:'Raleway';
+  color: #fff;
+  font-family: "Raleway";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -334,8 +320,8 @@ a.bet-button {
   height: 553.98px;
 }
 .card__text-third {
-  color: #FFF;
-  font-family: 'Raleway';
+  color: #fff;
+  font-family: "Raleway";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -347,15 +333,13 @@ a.bet-button {
   width: 257px;
 }
 .lots__look-more-link {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 20px;
   font-weight: 400;
   color: #000;
   text-decoration: underline;
   text-underline-offset: 4px;
-
   margin-left: 38px;
-
 }
 .about {
   display: inline-grid;
@@ -373,11 +357,10 @@ a.bet-button {
   flex-shrink: 0;
   border-radius: 118.5px;
   background-color: #000;
-
 }
 .about__title {
   color: #000;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -388,7 +371,7 @@ a.bet-button {
 }
 .first-text {
   color: #000;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 20px;
   font-style: normal;
   font-weight: 10;
@@ -397,7 +380,7 @@ a.bet-button {
 }
 .second-text {
   color: #000;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 20px;
   font-style: normal;
   font-weight: 10;
@@ -405,7 +388,7 @@ a.bet-button {
 }
 .footer {
   display: inline-grid;
-  grid-template-columns: 315px 348px 328px ;
+  grid-template-columns: 315px 348px 328px;
   margin-left: 49px;
   margin-right: 49px;
 }
@@ -414,14 +397,13 @@ a.bet-button {
   flex-direction: column;
 }
 .footer__address {
-  text-decoration: underline ;
+  text-decoration: underline;
   text-underline-offset: 4px;
 }
 .footer__nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .first-child {
   text-decoration: none;
